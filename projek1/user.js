@@ -43,7 +43,7 @@ router.post("/user/login", function(req, res) {
 })
 
 app.use(express.json());
-app.use(router);
+app.use(router);x
 
 module.exports = app.listen(8080, () => {
     console.log('Http server start on port 8080')
